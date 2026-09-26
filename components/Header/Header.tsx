@@ -37,7 +37,7 @@ const Header = (props: { finishedLoading: boolean; sectionsRef }) => {
             scrollSizeY.current = window.scrollY;
           }
         }
-        console.log("Scrolling checking for NavBar ", scrollSizeY.current);
+        // console.log("Scrolling checking for NavBar ", scrollSizeY.current);
       };
     }
   }, [

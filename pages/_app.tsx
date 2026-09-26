@@ -8,6 +8,8 @@ import "../styles/globals.css";
 
 // import NEXT_PUBLIC_GA_TRACKING_ID form .env
 const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_TRACKING_ID;
+// Vercel Analytics / Speed Insights scripts are only served on Vercel deployments
+const IS_VERCEL = process.env.NEXT_PUBLIC_IS_VERCEL === "1";
 // global.d.ts
 declare global {
   interface Window {
@@ -77,9 +79,9 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <AppContext.Provider value={{ sharedState, setSharedState }}>
-      <SpeedInsights />
+      {IS_VERCEL && <SpeedInsights />}
       <Component {...pageProps} />
-      <Analytics />
+      {IS_VERCEL && <Analytics />}
     </AppContext.Provider>
   );
 }
