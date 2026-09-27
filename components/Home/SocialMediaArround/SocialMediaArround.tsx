@@ -3,8 +3,9 @@ import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import GithubIcon from "../../Icons/GithubIcon";
 import LinkedinIcon from "../../Icons/LinkedinIcon";
-import YoutubeIcon from "../../Icons/YoutubeIcon";
 import InstagramIcon from "../../Icons/InstagramIcon";
+import XIcon from "../../Icons/XIcon";
+import FacebookIcon from "../../Icons/FacebookIcon";
 
 const IconClickableWithAnimation = (props) => {
   return (
@@ -52,12 +53,11 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
               href={"https://www.linkedin.com/in/nick-maingott-a5674a439/"}
             />
             {/* Instagram Icon */}
-            {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
-            {/* Youtube Icon */}
-            <IconClickableWithAnimation
-              Icon={YoutubeIcon}
-              href={"https://www.youtube.com/@abdellatif_anaflous"}
-            />
+            <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/nickmaingott/"} />
+            {/* X Icon */}
+            <IconClickableWithAnimation Icon={XIcon} href={"https://x.com/NickMaingott/"} />
+            {/* Facebook Icon */}
+            <IconClickableWithAnimation Icon={FacebookIcon} href={"https://www.facebook.com/profile.php?id=61594554761126"} />
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>
         </div>
