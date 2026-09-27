@@ -3,7 +3,6 @@ import React from "react";
 import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedinIcon";
 import InstagramIcon from "../Icons/InstagramIcon";
-import YoutubeIcon from "../Icons/YoutubeIcon";
 
 const ClickableIcon = (props) => {
   return (
@@ -22,8 +21,7 @@ const IconsData = [
     href: "https://www.linkedin.com/in/nick-maingott-a5674a439",
     Icon: LinkedinIcon,
   },
-  { href: "https://www.instagram.com/titof_abdo/", Icon: InstagramIcon },
-  { href: "https://www.youtube.com/@abdellatif_anaflous", Icon: YoutubeIcon },
+  { href: "https://www.instagram.com/nickmaingott/", Icon: InstagramIcon },
 ];
 
 export default function Fotter(props: {

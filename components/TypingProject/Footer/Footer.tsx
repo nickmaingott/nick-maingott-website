@@ -3,7 +3,6 @@ import React from "react";
 import GithubIcon from "../../Icons/GithubIcon";
 import LinkedinIcon from "../../Icons/LinkedinIcon";
 import InstagramIcon from "../../Icons/InstagramIcon";
-import YoutubeIcon from "../../Icons/YoutubeIcon";
 
 type Props = { href: string; Icon: React.FC<{ className: string }> };
 const ClickableIcon = (props: Props) => {
@@ -34,18 +33,13 @@ export default function Fotter(props: { link: string; className: string }) {
           Icon={LinkedinIcon}
         />
         <ClickableIcon
-          href={"https://www.instagram.com/titof_abdo/"}
+          href={"https://www.instagram.com/nickmaingott/"}
           Icon={InstagramIcon}
-        />
-        <ClickableIcon
-          href={"https://www.youtube.com/c/NTTFT"}
-          Icon={YoutubeIcon}
         />
       </div>
       <a href={props.link} className="" target={"_blank"} rel="noreferrer">
         <div
-          className="group flex flex-col font-mono justify-center items-center  text-gray-400 
-    text-sm  space-y-2  "
+          className="group flex flex-col font-mono justify-center items-center  text-gray-400 text-sm  space-y-2"
         >
           <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
             Designed & Built by Nick MainGott
