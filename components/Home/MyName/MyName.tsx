@@ -83,36 +83,36 @@ const MyName: React.FC<MyNameProps> = (props) => {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a{" "}
+        A{" "}
         <span className="text-AAsecondary keyword-hover">
-          Lead Full Stack Software Engineer
+          Senior Full-Stack &amp; AI Engineer
         </span>{" "}
-        with strong{" "}
+        with{" "}
+        <span className="text-AAsecondary keyword-hover">7+ years</span> of
+        experience building production{" "}
+        <span className="text-AAsecondary keyword-hover">SaaS platforms</span>,
+        <br className="3xl:block hidden" /> distributed{" "}
         <span className="text-AAsecondary keyword-hover">
-          problem-solving skills
-        </span>
-        , specializing in creating exceptional digital experiences.
-        <br className="3xl:block hidden" /> With expertise in both{" "}
-        <span className="text-AAsecondary keyword-hover">front-end</span> and{" "}
-        <span className="text-AAsecondary keyword-hover">
-          back-end development
-        </span>
-        , I work with a diverse range of technologies, including{" "}
-        <span className="text-AAsecondary keyword-hover">web3</span>
-        <br className="3xl:block hidden" /> and traditional web applications. I
-        enjoy solving challenging projects that drive{" "}
-        <span className="text-AAsecondary keyword-hover">innovation</span> and
-        deliver high-quality results.
-        <br className="3xl:block hidden" /> My experience in{" "}
-        <span className="text-AAsecondary keyword-hover">
-          leading development teams
+          automation infrastructure
         </span>{" "}
-        has honed my ability to collaborate effectively and translate ideas into
-        functional solutions.
-        <br className="3xl:block hidden" /> I actively seek dynamic projects
-        where I can contribute to pushing the boundaries of technology and drive
-        impactful{" "}
-        <span className="text-AAsecondary keyword-hover">innovation</span>.
+        and enterprise{" "}
+        <span className="text-AAsecondary keyword-hover">
+          generative-AI systems
+        </span>
+        .<br className="3xl:block hidden" /> I specialize in taking products
+        from architecture through implementation, deployment and ongoing
+        optimization
+        <br className="3xl:block hidden" /> &mdash; across{" "}
+        <span className="text-AAsecondary keyword-hover">
+          React/TypeScript
+        </span>{" "}
+        front-ends,{" "}
+        <span className="text-AAsecondary keyword-hover">Python</span> backends,
+        and{" "}
+        <span className="text-AAsecondary keyword-hover">
+          LLM orchestration
+        </span>
+        .
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
