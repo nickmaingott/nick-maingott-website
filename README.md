@@ -12,8 +12,6 @@ Personal website for Mikhail Kovach
 - Tailwind CSS
 - framer-motion
 - Google API
-- cookie-cutter
-- react-leaflet
 - Vercel Analytics
 - Google Analytics
 
@@ -37,7 +35,7 @@ touch .env
 
 ### (OPTIONAL) : Add your Google API key inside .env file.
 
-> not Adding Google API to the project will cause not returning the correct zip code, it might be always "00000"
+> used by `/api/userInfoByIP` to look up the zip code; without it the zip code might always be "00000"
 
 > make sure you enabled Geolocation to this API
 
@@ -56,8 +54,6 @@ npm run build
 ---
 
 ## API Description :
-
-##### Endpoint 1 :
 
 the following endpoint will return a json object contains a bunch of information about the ip address
 
@@ -90,54 +86,6 @@ the following endpoint will return a json object contains a bunch of information
   "as": "AS14061 DigitalOcean, LLC",
   "query": "159.89.173.104"
 }
-```
-
-##### Endpoint 2 :
-
-the following endpoint will return a json object contains the zip code for the latitude and logitude
-
-```api
-"/api/userInfoByLatLon/" + lat + "/" + lon
-```
-
-**example** :
-
-```api
-/api/userInfoByIP/159.89.173.104
-```
-
-###### **_Get Request to above endpoint will return the zipcode of the lat and long provided :_**
-
-```json
-{ "zipcode": "56998" }
-```
-
-###### **_the Response below is returned if the lat and long provided has no zip code in Google maps, like lat & long in positioned in the ocean :_**
-
-```json
-{ "zipcode": "00000" }
-```
-
-##### Endpoint 3 :
-
-the following endpoint will return a json object contains "quote" and "author", for SpeedTyping project i displayed only the quote, **minLength** is considered as the minimum of characters.
-
-```api
-/api/typing/[minLength]
-```
-
-##### notes :
-
-- **_minLength_** should be between 10 - 300.
-- the returned quote is a chain of
-- i costumized the original Endpoint using The API Route of Nextjs, here is the Original Endpoint.
-
-##### Original Endpiont :
-
-###### URL :
-
-```api
-https://api.quotable.io/random?minLength=[minLength]
 ```
 
 ---

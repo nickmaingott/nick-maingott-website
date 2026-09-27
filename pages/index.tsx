@@ -82,29 +82,6 @@ export default function Home() {
   }, [IsBlackListEmpty, userData]);
 
   useEffect(() => {
-    // remove the interval Cookie timer setter when
-    clearInterval(context.sharedState.userdata.timerCookieRef.current);
-    if (typeof window !== "undefined") {
-      // remove UserDataPuller project EventListeners
-      window.removeEventListener(
-        "resize",
-        context.sharedState.userdata.windowSizeTracker.current,
-      );
-      window.removeEventListener(
-        "mousemove",
-        context.sharedState.userdata.mousePositionTracker.current,
-        false,
-      );
-      // remove Typing project EventListeners
-      window.removeEventListener(
-        "resize",
-        context.sharedState.typing.eventInputLostFocus,
-      );
-      document.removeEventListener(
-        "keydown",
-        context.sharedState.typing.keyboardEvent,
-      );
-    }
     setTimeout(() => {
       setShowElement(true);
     }, 4500);
