@@ -65,7 +65,7 @@ export default function WhereIHaveWorked() {
       {/* // ? Where I've Worked Content section */}
       <section
         className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0
-      justify-center md:justify-center items-center md:items-start "
+      justify-center md:justify-center items-center md:items-start w-full md:w-auto md:px-8 lg:px-0"
       >
         {/* // ? Left side of Where I've Worked, contains the bar and name of companies */}
         <CompaniesBar setDescriptionJob={setDescriptionJob} />
@@ -121,7 +121,7 @@ const CompaniesBar = (props) => {
   return (
     <div
       id="WhereIhaveWorkedSection"
-      className=" flex flex-col md:flex-row  w-screen lg:w-auto 
+      className=" flex flex-col md:flex-row  w-full md:w-auto md:shrink-0 
       overflow-auto scrollbar-hide md:overflow-hidden pb-4 md:pb-0 justify-start
        sm:justify-center items-start sm:items-center"
     >

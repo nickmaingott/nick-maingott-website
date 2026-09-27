@@ -11,18 +11,18 @@ interface AboutMeProps {
 const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
   const technologies = [
     [
-      "Next.js/React",
+      "React/Next.js",
       "TypeScript/JavaScript",
       "Tailwind CSS",
-      "Azure DevOps",
-      "AWS/Google Cloud",
+      "Python/FastAPI",
+      "Node.js/NestJS",
     ],
     [
-      "Node.js",
-      "Solidity/Web3.js",
-      "Squiz Matrix CMS",
-      "MongoDB/SQL Server",
-      "AI Agents/Automation",
+      "PostgreSQL/Redis",
+      "AWS/Docker",
+      "LLMs/RAG/Agents",
+      "PyTorch/TensorFlow",
+      "Web3/DeFi",
     ],
   ];
 
@@ -57,49 +57,50 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
           {/* Text Content */}
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm">
             <div className="font-Header text-gray-400 text-justify">
-              Hey there! I&apos;m Abdellatif, and I&apos;m pretty obsessed with
-              building cool stuff with code. My tech journey started when I was
-              just 11 years old – I got my hands on BackTrack OS and was
-              instantly hooked. That curiosity led me down a rabbit hole of
-              programming that I&apos;m still happily stuck in today.
-            </div>
-            <div className="font-Header text-gray-400 text-justify">
-              After years of teaching myself and eventually getting my{" "}
-              <span className="text-AAsecondary">engineering degree</span> and{" "}
+              Hey there! I&apos;m Mikhail, a{" "}
               <span className="text-AAsecondary">
-                Master&apos;s in Computer Science
-              </span>
-              , I&apos;ve spent{" "}
-              <span className="text-AAsecondary">+7 years</span> honing my
-              skills professionally and have been lucky enough to work with some
-              really interesting companies and startups. I&apos;ve built
-              everything from NFT marketplaces at{" "}
-              <span className="text-AAsecondary">FeverTokens</span> to working
-              on major releases for{" "}
-              <span className="text-AAsecondary">Vision</span> (the world&apos;s
-              second-largest ENS marketplace). Currently, I&apos;m leading the
-              charge on the digital side of one of the world&apos;s most
-              recognized energy statistics projects at the{" "}
-              <span className="text-AAsecondary">Energy Institute</span>,
-              bringing complex data to life online, managing its{" "}
-              <span className="text-AAsecondary">Azure DevOps</span> pipeline,
-              and developing solutions with tools like{" "}
-              <span className="text-AAsecondary">Squiz Matrix CMS</span>.
+                Senior Full-Stack &amp; AI Engineer
+              </span>{" "}
+              based in Sydney, Australia. I love taking products from the first
+              architecture sketch all the way through implementation, deployment
+              and ongoing optimization. My journey started with a{" "}
+              <span className="text-AAsecondary">
+                Bachelor of Computer Science
+              </span>{" "}
+              at the University of Sydney, followed by freelance work building
+              end-to-end web apps for clients around the world.
             </div>
             <div className="font-Header text-gray-400 text-justify">
-              What I love most is diving into new challenges and picking up
-              fresh skills along the way – like{" "}
-              <span className="text-AAsecondary">building AI agents</span> and
-              exploring{" "}
-              <span className="text-AAsecondary">AI-powered automation</span>.
-              There&apos;s always something new to learn in this field, and
-              I&apos;m here for it.
+              Over the past{" "}
+              <span className="text-AAsecondary">7+ years</span> I&apos;ve built
+              and led backend services at{" "}
+              <span className="text-AAsecondary">StakOne</span>, built the backend
+              behind core accounting at{" "}
+              <span className="text-AAsecondary">Patriot Software</span>, and
+              worked on the workflow execution engine behind 9,000+
+              integrations at{" "}
+              <span className="text-AAsecondary">Zapier</span>. Most recently, at{" "}
+              <span className="text-AAsecondary">Dataiku</span>, I built{" "}
+              <span className="text-AAsecondary">Dataiku Answers</span>, the
+              enterprise RAG assistant, and extended{" "}
+              <span className="text-AAsecondary">LLM Mesh</span>, a gateway that
+              routes a single API across OpenAI, Anthropic, AWS Bedrock, Azure,
+              Google Vertex and more.
+            </div>
+            <div className="font-Header text-gray-400 text-justify">
+              What I love most is turning cutting-edge ideas into reliable
+              production systems &ndash; from{" "}
+              <span className="text-AAsecondary">generative-AI agents</span> and{" "}
+              <span className="text-AAsecondary">LLM orchestration</span> to
+              distributed automation infrastructure, and exploring{" "}
+              <span className="text-AAsecondary">BitTensor subnets</span> and
+              Web3 along the way.
             </div>
             <div className="font-Header tracking-wide text-gray-400 pt-2 pb-1 text-justify">
               Here&apos;s what I&apos;m usually working with these days:
             </div>
             {/* Technologies List */}
-            <div className="font-Header tracking-wide flex flex-row space-x-12 md:space-x-16 justify-center lg:justify-start">
+            <div className="font-Header tracking-wide flex flex-row space-x-6 sm:space-x-12 md:space-x-16 justify-center lg:justify-start">
               {technologies.map((techGroup, groupIndex) => (
                 <div
                   key={groupIndex}
@@ -122,9 +123,9 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               ))}
             </div>
             <div className="font-Header text-gray-400 pt-4 text-justify">
-              Whether it&apos;s web3 projects, leading significant data
-              initiatives, traditional web apps, or something completely
-              different, I&apos;m always up for the next adventure in code.
+              Whether it&apos;s enterprise AI, automation platforms, SaaS
+              products, or something completely different, I&apos;m always up
+              for the next adventure in code.
             </div>
           </div>
 
