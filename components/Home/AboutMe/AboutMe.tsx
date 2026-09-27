@@ -30,7 +30,7 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
     <div
       id="aboutSection"
       data-aos="fade-up"
-      className="snap-start flex flex-col items-center py-20 bg-AAprimary"
+      className="snap-start flex flex-col items-center py-20"
     >
       {/* 0.1 About Me Title */}
       <div className="flex flex-col space-y-8 px-4 sm:px-0 w-full sm:w-[500px] md:w-[700px] lg:w-[900px]">

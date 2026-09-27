@@ -16,6 +16,7 @@ import Footer from "../components/Footer/Footer";
 import AppContext from "../components/AppContextFolder/AppContext";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
 import Maintenance from "../components/Home/Maintenance/Maintenance";
+import Particles from "../components/Background/Particles";
 
 export default function Home() {
   const [ShowElement, setShowElement] = useState(false);
@@ -154,7 +155,20 @@ export default function Home() {
       </Head>
 
       {!isBlackListed ? (
-        <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
+        <div className="relative isolate snap-mandatory min-h-screen bg-AAprimary w-full ">
+          {/* Particles background, fixed behind all page content */}
+          <div className="fixed inset-0 -z-10 pointer-events-none">
+            <Particles
+              particleColors={["#64ffda", "#ffffff"]}
+              particleCount={200}
+              particleSpread={10}
+              speed={0.1}
+              particleBaseSize={100}
+              moveParticlesOnHover={true}
+              alphaParticles={false}
+              disableRotation={false}
+            />
+          </div>
           {context.sharedState.finishedLoading ? (
             <></>
           ) : ShowThisCantBeReached ? (

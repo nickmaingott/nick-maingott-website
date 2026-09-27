@@ -43,7 +43,7 @@ export default function WhereIHaveWorked() {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary"
+      className="flex flex-col items-center justify-center py-24 space-y-12"
     >
       {/* // ? Title "Where I've Worked" */}
       <section className="flex flex-row items-center">
