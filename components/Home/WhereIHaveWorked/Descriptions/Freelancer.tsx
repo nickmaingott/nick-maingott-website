@@ -3,29 +3,19 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function IdealFresh() {
+export default function Freelancer() {
   const tasks = [
     {
-      text: "Designed and developed a desktop application for IdealFresh to manage billing and client data, leveraging Java, JavaFX, and Oracle for an efficient user experience.",
-      keywords: ["Java", "JavaFX", "Oracle", "user experience"],
+      text: "Delivered end-to-end web applications and backend services for international clients.",
+      keywords: ["end-to-end web applications", "backend services", "international clients"],
     },
     {
-      text: "Utilized Apache POI for data manipulation with Microsoft Excel, creating customized scripts to pull, manage, and refactor files from cloud storage.",
-      keywords: [
-        "Apache POI",
-        "Microsoft Excel",
-        "custom scripts",
-        "cloud storage",
-      ],
+      text: "Owned each engagement solo, from requirements and database schema through build and deployment.",
+      keywords: ["requirements", "database schema", "deployment"],
     },
     {
-      text: "Collaborated with non-developers to provide technical solutions and expertise, enhancing their workflows through integrated API endpoints and streamlined data exchange.",
-      keywords: [
-        "non-developers",
-        "technical solutions",
-        "API endpoints",
-        "workflow enhancement",
-      ],
+      text: "Handled client handover and production monitoring after launch.",
+      keywords: ["handover", "production monitoring"],
     },
   ];
 
@@ -35,15 +25,23 @@ export default function IdealFresh() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Java</span>
+            Freelance Software Engineer{" "}
+            <span className="text-AAsecondary">@ Freelancer.com</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Jan - August 2021
+            Mar 2020 - Sept 2020
+          </span>
+          <span
+            className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+            style={{ fontSize: "0.6rem" }}
+            // set on click to open the website
+            onClick={() => window.open("https://www.freelancer.com/", "_blank")}
+          >
+            www.freelancer.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
-          {/* Tasks Description 1 */}
           {tasks.map((item, index) => {
             return (
               <div key={index} className="flex flex-row space-x-2">
