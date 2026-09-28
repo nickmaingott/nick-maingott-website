@@ -28,6 +28,48 @@ const certificates = [
     height: 804,
   },
   {
+    title: "SQL (Advanced)",
+    src: "/certificates/hackerrank_sql.png",
+    verifyUrl: "https://www.hackerrank.com/certificates/437e6c5b7444",
+    width: 1106,
+    height: 841,
+  },
+  {
+    title: "Go (Intermediate)",
+    src: "/certificates/hackerrank_golang.png",
+    verifyUrl: "https://www.hackerrank.com/certificates/77bc5ab6f992",
+    width: 1103,
+    height: 840,
+  },
+  {
+    title: "JavaScript (Intermediate)",
+    src: "/certificates/hackerrank_javascript.png",
+    verifyUrl: "https://www.hackerrank.com/certificates/f43c6fd7ef3f",
+    width: 1105,
+    height: 842,
+  },
+  {
+    title: "Node.js (Intermediate)",
+    src: "/certificates/hackerrank_nodejs.png",
+    verifyUrl: "https://www.hackerrank.com/certificates/f004f89184eb",
+    width: 1104,
+    height: 843,
+  },
+  {
+    title: "Rest API (Intermediate)",
+    src: "/certificates/hackerrank_restapi.png",
+    verifyUrl: "https://www.hackerrank.com/certificates/2bc16ebcd262",
+    width: 1105,
+    height: 843,
+  },
+  {
+    title: "Java (Basic)",
+    src: "/certificates/hackerrank_java.png",
+    verifyUrl: "https://www.hackerrank.com/certificates/3eb705a0dab7",
+    width: 1100,
+    height: 840,
+  },
+  {
     title: "Python (Basic)",
     src: "/certificates/hackerrank_python.png",
     verifyUrl: "https://www.hackerrank.com/certificates/d2c90b92066b",
@@ -35,9 +77,6 @@ const certificates = [
     height: 801,
   },
 ];
-
-// Embla needs more slide width than the viewport to loop smoothly, so the list is rendered twice
-const slides = [...certificates, ...certificates];
 
 export default function Certificates() {
   const [reducedMotion, setReducedMotion] = useState(false);
@@ -74,11 +113,11 @@ export default function Certificates() {
     else autoplay.play();
   }, [emblaApi, lightboxIndex]);
 
-  const activeCert = selectedIndex % certificates.length;
+  const activeCert = selectedIndex;
 
   const onSlideClick = (index: number) => {
     if (!emblaApi) return;
-    if (index === selectedIndex) setLightboxIndex(index % certificates.length);
+    if (index === selectedIndex) setLightboxIndex(index);
     else emblaApi.scrollTo(index);
   };
 
@@ -109,14 +148,14 @@ export default function Certificates() {
       >
         <div className="overflow-hidden cursor-grab active:cursor-grabbing" ref={emblaRef}>
           <div className="flex touch-pan-y">
-            {slides.map((cert, index) => {
+            {certificates.map((cert, index) => {
               const isActive = index === selectedIndex;
               return (
                 <div
                   key={index}
                   className="flex-[0_0_88%] sm:flex-[0_0_72%] lg:flex-[0_0_58%] xl:flex-[0_0_50%] min-w-0 px-2 sm:px-4"
                   aria-roledescription="slide"
-                  aria-label={`${(index % certificates.length) + 1} of ${certificates.length}`}
+                  aria-label={`${index + 1} of ${certificates.length}`}
                 >
                   <div
                     className={`transition-all duration-500 ease-out ${
@@ -212,17 +251,10 @@ export default function Certificates() {
             <button
               key={cert.src}
               type="button"
-              onClick={() => {
-                // jump to the copy of this certificate nearest to the current slide
-                const candidates = [i, i + certificates.length];
-                const nearest = candidates.reduce((a, b) =>
-                  Math.abs(b - selectedIndex) < Math.abs(a - selectedIndex) ? b : a,
-                );
-                emblaApi?.scrollTo(nearest);
-              }}
+              onClick={() => emblaApi?.scrollTo(i)}
               aria-label={`Show ${cert.title} certificate`}
               aria-current={i === activeCert}
-              className={`h-2 rounded-full transition-all duration-300 ${
+              className={`h-2 rounded-full transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-AAsecondary focus-visible:ring-offset-2 focus-visible:ring-offset-AAprimary ${
                 i === activeCert ? "w-8 bg-AAsecondary" : "w-2 bg-gray-600 hover:bg-gray-400"
               }`}
             />
