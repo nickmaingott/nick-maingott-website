@@ -14,6 +14,8 @@
     "@vercel/speed-insights": "^1.1.0",
     "aos": "^2.3.4",
     "battery": "^1.0.1",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
     "framer-motion": "^4.1.17",
     "https": "^1.0.0",
     "lucide-react": "^0.475.0",
@@ -26,7 +28,8 @@
     "react-timer-hook": "^3.0.5",
     "serve": "^14.0.1",
     "systeminformation": "^5.12.5",
-    "tailwind-scrollbar-hide": "^1.1.7"
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "yet-another-react-lightbox": "^3.32.2"
   },
   "devDependencies": {
     "@types/node": "^18.0.6",

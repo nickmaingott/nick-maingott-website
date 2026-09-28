@@ -5,7 +5,7 @@ import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 
 export default function DesktopMenu(props: { finishedLoading: boolean }) {
   return (
-    <div className="font-mono text-xs md:flex hidden flex-row items-center space-x-8 ">
+    <div className="font-mono text-xs md:flex hidden flex-row items-center space-x-4 lg:space-x-8 whitespace-nowrap">
       <motion.div
         initial={{
           y: -40,
@@ -29,7 +29,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           offset={-100}
           duration={200}
         >
-          &gt; 01.{" "}
+          <span className="hidden lg:inline">&gt; </span>01.{" "}
           <span className="text-white hover:cursor-pointer hover:text-AAsecondary duration-300">
             About
           </span>
@@ -58,7 +58,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           offset={-300}
           duration={200}
         >
-          &gt; 02.{" "}
+          <span className="hidden lg:inline">&gt; </span>02.{" "}
           <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">
             Experience
           </span>
@@ -87,7 +87,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           offset={-100}
           duration={200}
         >
-          &gt; 03.{" "}
+          <span className="hidden lg:inline">&gt; </span>03.{" "}
           <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">
             Work
           </span>
@@ -110,13 +110,42 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         className="text-AAsecondary"
       >
         <ReactScrollLink
+          to="CertificatesSection"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={200}
+        >
+          <span className="hidden lg:inline">&gt; </span>04.{" "}
+          <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">
+            Certificates
+          </span>
+        </ReactScrollLink>
+      </motion.span>
+      <motion.span
+        initial={{
+          y: -40,
+          opacity: 0,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+          type: "spring",
+          duration: props.finishedLoading ? 0 : 1.2,
+          delay: props.finishedLoading ? 0 : 10.1,
+        }}
+        className="text-AAsecondary"
+      >
+        <ReactScrollLink
           to="GetInTouchSection"
           spy={true}
           smooth={true}
           offset={-100}
           duration={200}
         >
-          &gt; 04.{" "}
+          <span className="hidden lg:inline">&gt; </span>05.{" "}
           <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">
             Contact
           </span>
