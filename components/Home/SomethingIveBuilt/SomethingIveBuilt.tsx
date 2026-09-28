@@ -3,7 +3,6 @@ import React from "react";
 
 import ArrowIcon from "../../Icons/ArrowIcon";
 import Img from "../../smallComp/image/Img";
-import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 import ExternalLink from "../../Icons/ExternalLink";
 
 export default function SomethingIveBuilt() {
@@ -122,7 +121,6 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Python</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
                 <a
                   href="https://www.dataiku.com/"
                   target={"_blank"}
@@ -327,7 +325,6 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Migration</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
                 <a
                   href="https://www.patriotsoftware.com/"
                   target={"_blank"}
@@ -339,7 +336,7 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-        {/* // ? Project 5 */}
+        {/* // ?  Project 4 - Freelancer */}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96"
@@ -351,7 +348,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a
-                href="https://www.haircut.ma"
+                href="https://www.freelancer.com/"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -361,12 +358,6 @@ export default function SomethingIveBuilt() {
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-
-              <div className="absolute px-2 bg-AAprimary rounded  ml-4 mt-2 ">
-                <span className="text-AAsecondary text-xl">
-                  In initiation...
-                </span>
-              </div>
 
               <Img
                 src={"/freelancer.jpg"}
@@ -390,57 +381,51 @@ export default function SomethingIveBuilt() {
                 />
               </div>
             </div>
-            <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
-              <div className="w-full"></div>
-              <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">
-                In initiation...
-              </span>
-            </div>
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">
-                  Recent Project
+                  Freelancer.com
                 </span>
                 <a
-                  href="https://www.haircut.ma"
+                  href="https://www.freelancer.com/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Haircut Appointment
+                    Freelance Software Engineering
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  It&apos; a barber shop{" "}
+                  As an independent engineer on{" "}
+                  <span className="text-AAsecondary">Freelancer.com</span>, I
+                  delivered{" "}
                   <span className="text-AAsecondary">
-                    appointment scheduling
+                    end-to-end web applications
                   </span>{" "}
-                  & management software it provides{" "}
-                  <span className="text-AAsecondary">online scheduling</span>,
-                  appointment reminders,{" "}
-                  <span className="text-AAsecondary">payments</span>, marketing,
-                  and much more! Currently in the{" "}
-                  <span className="text-AAsecondary">Initiation phase</span>.
+                  and backend services for international clients, owning each
+                  engagement solo &ndash; from requirements and{" "}
+                  <span className="text-AAsecondary">database schema</span>{" "}
+                  through build, deployment, handover and{" "}
+                  <span className="text-AAsecondary">production monitoring</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Appointment</span>
-                <span className="pr-4 z-10">Management</span>
-                <span className="pr-4 z-10">Scheduling</span>
-                <span className="pr-4 z-10">Booking</span>
+                <span className="pr-4 z-10">Web Apps</span>
+                <span className="pr-4 z-10">Backend</span>
+                <span className="pr-4 z-10">Databases</span>
+                <span className="pr-4 z-10">Deployment</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/haircut" />
                 <a
-                  href="https://www.haircut.ma"
+                  href="https://www.freelancer.com/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
