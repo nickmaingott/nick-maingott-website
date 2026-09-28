@@ -104,9 +104,9 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Mikhail Kovach - Lead Full Stack Software Engineer",
+    title: "Mikhail Kovach - Full Stack AI Software Engineer",
     description: `I've been working on Software development for more than 7 years. Get in touch with me to know more.`,
-    image: "/titofCercle.png",
+    image: "/nickMaingott.jpg",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -125,7 +125,7 @@ export default function Home() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@titofabdo" />
+        <meta name="twitter:site" content="@nickmaingott" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -178,7 +178,7 @@ export default function Home() {
           {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
           {context.sharedState.finishedLoading ? (
             <Footer
-              githubUrl={"https://github.com/hktitof/my-website"}
+              githubUrl={"https://github.com/nickmaingott/nick-maingott-website"}
               hideSocialsInDesktop={true}
             />
           ) : (
