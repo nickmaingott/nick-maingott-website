@@ -36,7 +36,7 @@ export default function SomethingIveBuilt() {
 
       <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
         {/* // TODO : to here  */}
-        {/* // ?  Project  1 Dataiku */}
+        {/* // ?  Project 1 - Better Futures */}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
@@ -48,7 +48,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a
-                href={"https://www.dataiku.com/"}
+                href={"https://www.betterfutures.ai/"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -58,7 +58,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
               <Img
-                src={"/dataiku.png"}
+                src={"/betterfutures.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -73,7 +73,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/dataiku.png"}
+                  src={"/betterfutures.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -85,28 +85,28 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">Dataiku</span>
+                <span className="text-AAsecondary text-base">Better Futures</span>
                 <a
-                  href="https://www.dataiku.com/"
+                  href="https://www.betterfutures.ai/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Enterprise Generative-AI Platform
+                    EVA&trade; AI Platform
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
-                  At <span className="text-AAsecondary">Dataiku</span>, I built{" "}
-                  <span className="text-AAsecondary">Dataiku Answers</span>, the
-                  enterprise RAG assistant, extended{" "}
-                  <span className="text-AAsecondary">LLM Mesh</span> to route a
-                  single API across OpenAI, Anthropic, AWS Bedrock and more, and
-                  delivered the tool-using{" "}
-                  <span className="text-AAsecondary">GenAI agent framework</span>{" "}
-                  with the LLM Registry for model versioning, cost control and
-                  audit.
+                  At <span className="text-AAsecondary">Better Futures</span>, I
+                  developed AI-powered automation for engineering documentation,
+                  building{" "}
+                  <span className="text-AAsecondary">RAG pipelines</span>, LLM
+                  workflows and{" "}
+                  <span className="text-AAsecondary">vector search</span> that turn
+                  complex engineering information into structured documentation
+                  with traceable,{" "}
+                  <span className="text-AAsecondary">audit-ready outputs</span>.
                 </p>
               </div>
               <ul
@@ -114,15 +114,12 @@ export default function SomethingIveBuilt() {
                text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10">RAG</span>
-                <span className="pr-4 z-10">LLM Mesh</span>
-                <span className="pr-4 z-10">GenAI Agents</span>
-                <span className="pr-4 z-10">Pinecone</span>
-                <span className="pr-4 z-10">React/TypeScript</span>
-                <span className="pr-4 z-10">Python</span>
+                <span className="pr-4 z-10">LLMs</span>
+                <span className="pr-4 z-10">Vector Search</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <a
-                  href="https://www.dataiku.com/"
+                  href="https://www.betterfutures.ai/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
@@ -133,7 +130,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 2 - Zapier */}
+        {/* // ?  Project 2 - StakOne */}
 
         <div
           data-aos="fade-up"
@@ -146,7 +143,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a
-                href="https://zapier.com/"
+                href="https://stakone.com.au/"
                 target={"_blank"}
                 rel="noreferrer"
               >
@@ -158,7 +155,7 @@ export default function SomethingIveBuilt() {
               </a>
 
               <Img
-                src={"/img/zapier.png"}
+                src={"/stakone.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -173,7 +170,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/img/zapier.png"}
+                  src={"/stakone.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
                 />
@@ -185,48 +182,42 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">Zapier</span>
+                <span className="text-AAsecondary text-base">StakOne</span>
                 <a
-                  href="https://zapier.com/"
+                  href="https://stakone.com.au/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Workflow Automation Platform
+                    Backend Services &amp; REST APIs
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  At <span className="text-AAsecondary">Zapier</span>, I worked
-                  on the core{" "}
-                  <span className="text-AAsecondary">
-                    workflow execution engine
-                  </span>{" "}
-                  behind 9,000+ integrations, extended the Zap Editor&apos;s{" "}
-                  <span className="text-AAsecondary">Drafts and versioning</span>{" "}
-                  model, delivered the 2023{" "}
-                  <span className="text-AAsecondary">
-                    enterprise control plane
-                  </span>{" "}
-                  and contributed to the{" "}
-                  <span className="text-AAsecondary">AI Zap Builder</span>.
+                  At <span className="text-AAsecondary">StakOne</span>, I developed
+                  scalable{" "}
+                  <span className="text-AAsecondary">backend services</span> and{" "}
+                  <span className="text-AAsecondary">REST APIs</span>, optimized
+                  database structures and data workflows, and implemented
+                  authentication and core business logic &ndash; while{" "}
+                  <span className="text-AAsecondary">reviewing code</span> and
+                  coordinating the team&apos;s technical work.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Workflows</span>
-                <span className="pr-4 z-10">Job Queues</span>
-                <span className="pr-4 z-10">RBAC</span>
-                <span className="pr-4 z-10">Audit Logs</span>
-                <span className="pr-4 z-10">AI</span>
+                <span className="pr-4 z-10">Backend</span>
+                <span className="pr-4 z-10">REST APIs</span>
+                <span className="pr-4 z-10">Databases</span>
+                <span className="pr-4 z-10">Auth</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
                   <a
-                    href="https://zapier.com/"
+                    href="https://stakone.com.au/"
                     target={"_blank"}
                     rel="noreferrer"
                   >
@@ -238,7 +229,7 @@ export default function SomethingIveBuilt() {
           </div>
         </div>
 
-        {/* // ?  Project 3 - Patriot Software */}
+        {/* // ?  Project 3 - CodeIT */}
         <div
           data-aos="fade-up"
           className="relative md:grid md:grid-cols-12 w-full md:h-96  "
@@ -250,7 +241,7 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a
-                href={"https://www.patriotsoftware.com/"}
+                href={"https://www.codeit.rs/"}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -260,7 +251,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
               <Img
-                src={"/img/patriotsoftware.png"}
+                src={"/codeit.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -275,7 +266,7 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/img/patriotsoftware.png"}
+                  src={"/codeit.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full`}
                 />
@@ -287,46 +278,40 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
-                <span className="text-AAsecondary text-base">
-                  Patriot Software
-                </span>
+                <span className="text-AAsecondary text-base">CodeIT</span>
                 <a
-                  href="https://www.patriotsoftware.com/"
+                  href="https://www.codeit.rs/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Accounting Platform Backend
+                    MTEL &amp; Fonly E-commerce
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left">
-                  At <span className="text-AAsecondary">Patriot Software</span>,
-                  I built the{" "}
-                  <span className="text-AAsecondary">backend services</span>{" "}
-                  behind core accounting &ndash; the Chart of Accounts,
-                  general ledger and trial balance &ndash; and designed the{" "}
-                  <span className="text-AAsecondary">
-                    migration and import system
-                  </span>{" "}
-                  that onboards customers from their existing books through{" "}
-                  <span className="text-AAsecondary">CSV ingestion</span> and bulk
-                  import.
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
+                  At <span className="text-AAsecondary">CodeIT</span>, I built the
+                  frontend for <span className="text-AAsecondary">MTEL</span>&apos;s
+                  e-commerce and B2B telecom portal &ndash; purchases, bill
+                  payments and prepaid credit &ndash; and worked as backend
+                  developer on <span className="text-AAsecondary">Fonly</span>,
+                  integrating with SAP, Oracle and DEX through the client&apos;s{" "}
+                  <span className="text-AAsecondary">Enterprise Service Bus</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">Accounting</span>
-                <span className="pr-4 z-10">Ledger</span>
-                <span className="pr-4 z-10">CSV Import</span>
-                <span className="pr-4 z-10">Migration</span>
+                <span className="pr-4 z-10">E-commerce</span>
+                <span className="pr-4 z-10">Telecom</span>
+                <span className="pr-4 z-10">SAP</span>
+                <span className="pr-4 z-10">ESB</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <a
-                  href="https://www.patriotsoftware.com/"
+                  href="https://www.codeit.rs/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
@@ -336,10 +321,12 @@ export default function SomethingIveBuilt() {
             </div>
           </div>
         </div>
-        {/* // ?  Project 4 - Freelancer */}
+
+        {/* // ?  Project 4 - Webgate */}
+
         <div
           data-aos="fade-up"
-          className="relative md:grid md:grid-cols-12 w-full md:h-96"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96 "
         >
           {/* Left image */}
           <div
@@ -348,19 +335,19 @@ export default function SomethingIveBuilt() {
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a
-                href="https://www.freelancer.com/"
+                href="https://webgate.digital/"
                 target={"_blank"}
                 rel="noreferrer"
               >
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+           transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
               <Img
-                src={"/freelancer.jpg"}
+                src={"/webgate.png"}
                 alt={"Project Screen shot"}
                 className={`w-full rounded h-full `}
               />
@@ -375,24 +362,117 @@ export default function SomethingIveBuilt() {
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
                 <Img
-                  src={"/freelancer.jpg"}
+                  src={"/webgate.png"}
                   alt={"Project Screen shot"}
                   className={`w-full h-full `}
                 />
               </div>
             </div>
+
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
-            col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
+            col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">
-                  Freelancer.com
-                </span>
+                <span className="text-AAsecondary text-base">Webgate</span>
+                <a
+                  href="https://webgate.digital/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Responsive Client Websites
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left ">
+                  At <span className="text-AAsecondary">Webgate</span>, I built
+                  modern, responsive websites for technology clients &ndash;
+                  including <span className="text-AAsecondary">SuperScale</span>,
+                  with reusable frontend components and cross-browser support,
+                  and <span className="text-AAsecondary">Vacuumgroup.com</span>,
+                  featuring a dynamic timeline and{" "}
+                  <span className="text-AAsecondary">job-position filtering</span>.
+                </p>
+              </div>
+              <ul
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
+               text-sm font-Text2 md:justify-end"
+              >
+                <span className="pr-4 z-10">Frontend</span>
+                <span className="pr-4 z-10">Responsive</span>
+                <span className="pr-4 z-10">UI/UX</span>
+              </ul>
+              <div className="z-10 flex fle-row space-x-5 ">
+                <div className="z-10 flex fle-row space-x-5 ">
+                  <a
+                    href="https://webgate.digital/"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    <ExternalLink url={""} router={router} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // ?  Project 5 - Freelancer */}
+        <div
+          data-aos="fade-up"
+          className="relative md:grid md:grid-cols-12 w-full md:h-96  "
+        >
+          {/* Left image */}
+          <div
+            className="hidden bg-AAprimary z-10  py-4 
+          absolute md:grid grid-cols-12 w-full h-full  content-center "
+          >
+            <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+              <a
+                href={"https://www.freelancer.com/"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div
+                  className="absolute w-full h-full rounded bg-AAprimary 
+           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                ></div>
+              </a>
+              <Img
+                src={"/freelancer.jpg"}
+                alt={"Project Screen shot"}
+                className={`w-full rounded h-full `}
+              />
+            </div>
+          </div>
+
+          {/* right Content */}
+          <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+            {/* background for text in mobile responsive */}
+            <div className="absolute w-full h-full bg-opacity-70 z-0 md:order-2">
+              <div className="relative w-full h-full">
+                <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                <Img
+                  src={"/freelancer.jpg"}
+                  alt={"Project Screen shot"}
+                  className={`w-full h-full`}
+                />
+              </div>
+            </div>
+
+            <div
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+            col-span-8 flex flex-col items-start  space-y-3 md:order-1"
+            >
+              <div className="flex flex-col space-y-1  z-10">
+                <span className="text-AAsecondary text-base">Freelancer.com</span>
                 <a
                   href="https://www.freelancer.com/"
-                  target={"_blank"}
-                  rel="noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Freelance Software Engineering
@@ -400,7 +480,7 @@ export default function SomethingIveBuilt() {
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
                   As an independent engineer on{" "}
                   <span className="text-AAsecondary">Freelancer.com</span>, I
                   delivered{" "}
@@ -410,20 +490,19 @@ export default function SomethingIveBuilt() {
                   and backend services for international clients, owning each
                   engagement solo &ndash; from requirements and{" "}
                   <span className="text-AAsecondary">database schema</span>{" "}
-                  through build, deployment, handover and{" "}
-                  <span className="text-AAsecondary">production monitoring</span>.
+                  through build, deployment and{" "}
+                  <span className="text-AAsecondary">handover</span>.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
+               text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10">Web Apps</span>
                 <span className="pr-4 z-10">Backend</span>
                 <span className="pr-4 z-10">Databases</span>
-                <span className="pr-4 z-10">Deployment</span>
               </ul>
-              <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
+              <div className="z-10 flex fle-row space-x-5 ">
                 <a
                   href="https://www.freelancer.com/"
                   target={"_blank"}
