@@ -3,23 +3,23 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function PatriotSoftware() {
+export default function BetterFutures() {
   const tasks = [
     {
-      text: "Built the backend services behind core accounting transactions — the Chart of Accounts and its subaccount hierarchy, transaction import and account mapping.",
-      keywords: ["backend services", "Chart of Accounts", "transaction import"],
+      text: "Developed AI-powered automation for engineering documentation on the EVA™ AI Platform, turning complex engineering information into structured, reliable documentation.",
+      keywords: ["AI-powered automation", "EVA™ AI Platform", "engineering documentation"],
     },
     {
-      text: "Implemented vendor and customer data processing, plus general-ledger and trial-balance functionality.",
-      keywords: ["data processing", "general-ledger", "trial-balance"],
+      text: "Designed and implemented solutions with Retrieval-Augmented Generation (RAG), large language models, vector databases and cloud infrastructure.",
+      keywords: ["Retrieval-Augmented Generation", "large language models", "vector databases", "cloud infrastructure"],
     },
     {
-      text: "Designed and delivered the accounting migration and import system used to onboard customers from their existing books: CSV ingestion, account mapping, data validation, and bulk import of customers, vendors, contractors and trial balances.",
-      keywords: ["migration and import system", "CSV ingestion", "data validation", "bulk import"],
+      text: "Built AI workflows with traceable outputs, validation mechanisms and audit-ready results, and integrated AI capabilities into production-oriented software systems.",
+      keywords: ["AI workflows", "traceable outputs", "audit-ready results", "production-oriented"],
     },
     {
-      text: "Wired the import pipeline into automated onboarding workflows.",
-      keywords: ["automated onboarding workflows"],
+      text: "Worked across engineering and software teams on maintainable AI solutions — spanning prompt engineering, vector search, document automation and API integration.",
+      keywords: ["prompt engineering", "vector search", "document automation", "API integration"],
     },
   ];
 
@@ -29,20 +29,20 @@ export default function PatriotSoftware() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Backend Engineer — Accounting Platform{" "}
-            <span className="text-AAsecondary">@ Patriot Software</span>
+            AI Developer{" "}
+            <span className="text-AAsecondary">@ Better Futures</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Oct 2021 - Sept 2022
+            Sep 2025 - Sep 2026
           </span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://www.patriotsoftware.com/", "_blank")}
+            onClick={() => window.open("https://www.betterfutures.ai/", "_blank")}
           >
-            www.patriotsoftware.com
+            www.betterfutures.ai
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

@@ -3,27 +3,23 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function StakOne() {
+export default function Webgate() {
   const tasks = [
     {
-      text: "Developed and maintained scalable backend services and REST APIs, designing and optimizing database structures, queries and data workflows.",
-      keywords: ["scalable backend services", "REST APIs", "database structures"],
+      text: "Built modern, responsive websites for technology and business clients, translating UI/UX requirements into production-ready interfaces.",
+      keywords: ["responsive websites", "UI/UX requirements", "production-ready interfaces"],
     },
     {
-      text: "Implemented authentication, authorization, validation and core business logic, and integrated third-party services and external APIs.",
-      keywords: ["authentication", "authorization", "third-party services"],
+      text: "Delivered responsive web experiences for SuperScale, a technology scale-up, with clean UI implementation, reusable frontend components and cross-browser compatibility.",
+      keywords: ["SuperScale", "reusable frontend components", "cross-browser compatibility"],
     },
     {
-      text: "Troubleshot production issues and drove measurable improvements to system reliability.",
-      keywords: ["production issues", "system reliability"],
+      text: "Designed and developed Vacuumgroup.com, an interactive corporate site featuring a dynamic timeline and job-position filtering across multiple holding companies.",
+      keywords: ["Vacuumgroup", "dynamic timeline", "job-position filtering"],
     },
     {
-      text: "Carried management responsibilities — reviewing code, coordinating development tasks across the team, planning and prioritizing technical work, and communicating project requirements.",
-      keywords: ["management", "reviewing code", "coordinating development tasks"],
-    },
-    {
-      text: "Supported releases end to end through testing, deployment and ongoing maintenance, translating business requirements into technical solutions with management and stakeholders.",
-      keywords: ["releases", "testing", "deployment", "business requirements"],
+      text: "Worked with designers and developers to ship production-ready sites and refined existing frontend functionality as client requirements evolved.",
+      keywords: ["designers and developers", "frontend functionality"],
     },
   ];
 
@@ -33,20 +29,20 @@ export default function StakOne() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Backend Developer &amp; Management{" "}
-            <span className="text-AAsecondary">@ StakOne</span>
+            Frontend Developer{" "}
+            <span className="text-AAsecondary">@ Webgate</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Mar 2024 - Jun 2025
+            Jun 2021 - Apr 2022
           </span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://stakone.com.au/", "_blank")}
+            onClick={() => window.open("https://webgate.digital/", "_blank")}
           >
-            stakone.com.au
+            webgate.digital
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

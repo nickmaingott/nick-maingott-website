@@ -3,23 +3,23 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function Zapier() {
+export default function CodeIT() {
   const tasks = [
     {
-      text: "Worked on the core Zap workflow execution engine across 9,000+ integrations — event and trigger processing, asynchronous job queues, idempotent retries, rate-limit management and fault tolerance under sustained load.",
-      keywords: ["workflow execution engine", "9,000", "asynchronous job queues", "idempotent retries", "fault tolerance"],
+      text: "Built customer-facing interfaces, backend services, business logic and secure data flows for high-traffic enterprise e-commerce and telecom platforms.",
+      keywords: ["customer-facing interfaces", "secure data flows", "e-commerce and telecom platforms"],
     },
     {
-      text: "Extended the Zap Editor's Drafts and versioning model, which lets users edit a workflow without disabling the running production version, through immutable revisions, concurrent editing, schema validation and publish/rollback.",
-      keywords: ["Zap Editor", "Drafts and versioning", "immutable revisions", "publish/rollback"],
+      text: "On MTEL, developed frontend functionality for an e-commerce and B2B portal covering telecom product and service purchases, bill payments and prepaid credit management.",
+      keywords: ["MTEL", "B2B portal", "bill payments"],
     },
     {
-      text: "Delivered the 2023 enterprise control plane (Version Rollback, Audit Logs, RBAC, Super Admin) for customers running mission-critical automations.",
-      keywords: ["enterprise control plane", "Audit Logs", "RBAC", "mission-critical"],
+      text: "Delivered responsive UI, user workflows and reliable integration with backend services across the MTEL portal.",
+      keywords: ["responsive UI", "user workflows"],
     },
     {
-      text: "Contributed to the AI Zap Builder, translating natural language into validated workflow schemas.",
-      keywords: ["AI Zap Builder", "natural language", "validated workflow schemas"],
+      text: "On Fonly, a mobile-phone e-commerce platform, worked as backend developer on integrations with SAP, Oracle and DEX through the client's Enterprise Service Bus (ESB), supporting security and dependable data exchange.",
+      keywords: ["Fonly", "SAP", "Oracle", "Enterprise Service Bus"],
     },
   ];
 
@@ -29,20 +29,20 @@ export default function Zapier() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer — Platform &amp; Automation{" "}
-            <span className="text-AAsecondary">@ Zapier</span>
+            Frontend &amp; Backend Developer{" "}
+            <span className="text-AAsecondary">@ CodeIT</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Nov 2022 - Oct 2023
+            May 2022 - Jun 2023
           </span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}
             // set on click to open the website
-            onClick={() => window.open("https://zapier.com/", "_blank")}
+            onClick={() => window.open("https://www.codeit.rs/", "_blank")}
           >
-            zapier.com
+            www.codeit.rs
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

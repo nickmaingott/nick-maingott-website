@@ -2,10 +2,10 @@ import React from "react";
 
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import Dataiku from "./Descriptions/Dataiku";
-import Zapier from "./Descriptions/Zapier";
-import PatriotSoftware from "./Descriptions/PatriotSoftware";
+import BetterFutures from "./Descriptions/BetterFutures";
 import StakOne from "./Descriptions/StakOne";
+import CodeIT from "./Descriptions/CodeIT";
+import Webgate from "./Descriptions/Webgate";
 import Freelancer from "./Descriptions/Freelancer";
 
 export default function WhereIHaveWorked() {
@@ -14,19 +14,19 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "Dataiku":
-        return <Dataiku />;
-      case "Zapier":
-        return <Zapier />;
-      case "PatriotSoftware":
-        return <PatriotSoftware />;
+      case "BetterFutures":
+        return <BetterFutures />;
       case "StakOne":
         return <StakOne />;
+      case "CodeIT":
+        return <CodeIT />;
+      case "Webgate":
+        return <Webgate />;
       case "Freelancer":
         return <Freelancer />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("Dataiku");
+  const [DescriptionJob, setDescriptionJob] = React.useState("BetterFutures");
 
   return (
     <div
@@ -120,37 +120,37 @@ const CompaniesBar = (props) => {
         <div className="flex flex-row md:flex-col">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Dataiku"
+            CompanyName="Better Futures"
             BarPosition={-10}
             BarAvobePosition={1}
-            DescriptionJob="Dataiku"
+            DescriptionJob="BetterFutures"
             CompanyNameBackgroundColorGreen={[true, false, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="Zapier"
+            CompanyName="StakOne"
             BarPosition={36}
             BarAvobePosition={128}
-            DescriptionJob="Zapier"
+            DescriptionJob="StakOne"
             CompanyNameBackgroundColorGreen={[false, true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="Patriot Software"
+            CompanyName="CodeIT"
             BarPosition={80}
             BarAvobePosition={256}
-            DescriptionJob="PatriotSoftware"
+            DescriptionJob="CodeIT"
             CompanyNameBackgroundColorGreen={[false, false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="StakOne"
+            CompanyName="Webgate"
             BarPosition={125}
             BarAvobePosition={384}
-            DescriptionJob="StakOne"
+            DescriptionJob="Webgate"
             CompanyNameBackgroundColorGreen={[false, false, false, true, false]}
             setDescriptionJob={props.setDescriptionJob}
           />

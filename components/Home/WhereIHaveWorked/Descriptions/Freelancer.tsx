@@ -14,8 +14,8 @@ export default function Freelancer() {
       keywords: ["requirements", "database schema", "deployment"],
     },
     {
-      text: "Handled client handover and production monitoring after launch.",
-      keywords: ["handover", "production monitoring"],
+      text: "Handled client handover at the end of each engagement.",
+      keywords: ["handover"],
     },
   ];
 
@@ -30,7 +30,7 @@ export default function Freelancer() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            Mar 2020 - Sept 2020
+            Mar 2019 - Apr 2021
           </span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
