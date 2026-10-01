@@ -3,6 +3,8 @@ import React from "react";
 import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedinIcon";
 import InstagramIcon from "../Icons/InstagramIcon";
+import XIcon from "../Icons/XIcon";
+import FacebookIcon from "../Icons/FacebookIcon";
 
 const ClickableIcon = (props) => {
   return (
@@ -18,10 +20,15 @@ const ClickableIcon = (props) => {
 const IconsData = [
   { href: "https://github.com/nickmaingott", Icon: GithubIcon },
   {
-    href: "https://www.linkedin.com/in/nick-maingott-a5674a439",
+    href: "https://www.linkedin.com/in/michael-kovach-a79949260/",
     Icon: LinkedinIcon,
   },
   { href: "https://www.instagram.com/nickmaingott/", Icon: InstagramIcon },
+  { href: "https://x.com/NickMaingott/", Icon: XIcon },
+  {
+    href: "https://www.facebook.com/profile.php?id=61594554761126",
+    Icon: FacebookIcon,
+  },
 ];
 
 export default function Fotter(props: {

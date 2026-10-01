@@ -89,30 +89,27 @@ const MyName: React.FC<MyNameProps> = (props) => {
         </span>{" "}
         with{" "}
         <span className="text-AAsecondary keyword-hover">7+ years</span> of
-        experience building production{" "}
-        <span className="text-AAsecondary keyword-hover">SaaS platforms</span>,
-        <br className="3xl:block hidden" /> distributed{" "}
+        experience across{" "}
         <span className="text-AAsecondary keyword-hover">
-          automation infrastructure
+          production AI systems
         </span>{" "}
-        and enterprise{" "}
-        <span className="text-AAsecondary keyword-hover">
-          generative-AI systems
-        </span>
-        .<br className="3xl:block hidden" /> I specialize in taking products
-        from architecture through implementation, deployment and ongoing
-        optimization
-        <br className="3xl:block hidden" /> &mdash; across{" "}
-        <span className="text-AAsecondary keyword-hover">
-          React/TypeScript
-        </span>{" "}
-        front-ends,{" "}
-        <span className="text-AAsecondary keyword-hover">Python</span> backends,
         and{" "}
         <span className="text-AAsecondary keyword-hover">
-          LLM orchestration
+          full-stack web development
         </span>
-        .
+        .<br className="3xl:block hidden" /> Most recently I built{" "}
+        <span className="text-AAsecondary keyword-hover">RAG pipelines</span>,
+        LLM workflows and vector search for an engineering-documentation
+        platform with traceable, audit-ready outputs.
+        <br className="3xl:block hidden" /> Earlier work spans e-commerce and
+        telecom platforms integrated with{" "}
+        <span className="text-AAsecondary keyword-hover">SAP</span>, Oracle and
+        ESB, responsive client interfaces, and{" "}
+        <span className="text-AAsecondary keyword-hover">
+          backend services and APIs
+        </span>
+        <br className="3xl:block hidden" /> &mdash; owned from requirements and
+        schema through build, deployment and maintenance.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

@@ -82,7 +82,7 @@ const PrivacyPolicy = () => {
             <p className="text-gray-700 mt-2">
               Email:{" "}
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:nickmaingott@gmail.com"
                 className="text-blue-600 hover:text-blue-800 transition duration-300"
               >
                 nickmaingott@gmail.com
