@@ -18,9 +18,9 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
       "Node.js/NestJS",
     ],
     [
-      "PostgreSQL/Redis",
+      "PostgreSQL/pgvector",
       "AWS/Docker",
-      "LLMs/RAG/Agents",
+      "LLMs/RAG",
       "PyTorch/TensorFlow",
       "Web3/DeFi",
     ],
@@ -61,38 +61,38 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               <span className="text-AAsecondary">
                 Senior Full-Stack &amp; AI Engineer
               </span>{" "}
-              based in Sydney, Australia. I love taking products from the first
-              architecture sketch all the way through implementation, deployment
-              and ongoing optimization. My journey started with a{" "}
+              based in Sydney, Australia. I love owning products end to end
+              &ndash; from requirements and schema through build, deployment
+              and maintenance. I started out freelancing on Freelancer.com,
+              building web apps for international clients, while studying for a{" "}
+              <span className="text-AAsecondary">Bachelor&apos;s in Law</span>,
+              and later completed a{" "}
               <span className="text-AAsecondary">
-                Bachelor of Computer Science
+                Master&apos;s in Information &amp; Communications Technology
               </span>{" "}
-              at the University of Sydney, followed by freelance work building
-              end-to-end web apps for clients around the world.
+              at Western Sydney University.
             </div>
             <div className="font-Header text-gray-400 text-justify">
               Over the past{" "}
-              <span className="text-AAsecondary">7+ years</span> I&apos;ve built
-              and led backend services at{" "}
-              <span className="text-AAsecondary">StakOne</span>, built the backend
-              behind core accounting at{" "}
-              <span className="text-AAsecondary">Patriot Software</span>, and
-              worked on the workflow execution engine behind 9,000+
-              integrations at{" "}
-              <span className="text-AAsecondary">Zapier</span>. Most recently, at{" "}
-              <span className="text-AAsecondary">Dataiku</span>, I built{" "}
-              <span className="text-AAsecondary">Dataiku Answers</span>, the
-              enterprise RAG assistant, and extended{" "}
-              <span className="text-AAsecondary">LLM Mesh</span>, a gateway that
-              routes a single API across OpenAI, Anthropic, AWS Bedrock, Azure,
-              Google Vertex and more.
+              <span className="text-AAsecondary">7+ years</span> I&apos;ve
+              built responsive websites at{" "}
+              <span className="text-AAsecondary">Webgate</span>, delivered
+              e-commerce and telecom platforms integrated with SAP, Oracle and
+              ESB at <span className="text-AAsecondary">CodeIT</span>, and
+              developed backend services and REST APIs at{" "}
+              <span className="text-AAsecondary">StakOne</span>, where I also
+              took on management responsibilities. Most recently, at{" "}
+              <span className="text-AAsecondary">Better Futures</span>, I
+              developed AI-powered automation for engineering documentation on
+              the <span className="text-AAsecondary">EVA&trade; AI Platform</span>.
             </div>
             <div className="font-Header text-gray-400 text-justify">
-              What I love most is turning cutting-edge ideas into reliable
-              production systems &ndash; from{" "}
-              <span className="text-AAsecondary">generative-AI agents</span> and{" "}
-              <span className="text-AAsecondary">LLM orchestration</span> to
-              distributed automation infrastructure, and exploring{" "}
+              What I love most is turning complex information into reliable
+              production software &ndash; from{" "}
+              <span className="text-AAsecondary">RAG pipelines</span> and{" "}
+              <span className="text-AAsecondary">LLM workflows</span> with
+              traceable, audit-ready outputs to vector search, document
+              automation and API integration, while exploring{" "}
               <span className="text-AAsecondary">BitTensor subnets</span> and
               Web3 along the way.
             </div>
@@ -123,9 +123,9 @@ const AboutMe = forwardRef<HTMLDivElement, AboutMeProps>((props, ref) => {
               ))}
             </div>
             <div className="font-Header text-gray-400 pt-4 text-justify">
-              Whether it&apos;s enterprise AI, automation platforms, SaaS
-              products, or something completely different, I&apos;m always up
-              for the next adventure in code.
+              Whether it&apos;s AI-powered automation, e-commerce platforms,
+              enterprise integrations, or something completely different,
+              I&apos;m always up for the next adventure in code.
             </div>
           </div>
 
