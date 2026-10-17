@@ -3,6 +3,7 @@ import Link from "next/link"; // Link component is imported but not used in this
 import { useRouter } from "next/router"; // useRouter is imported but not used. Remove if not needed.
 
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion"; // Or import { motion } from "framer-motion";
+import WhatsAppIcon from "../../Icons/WhatsAppIcon";
 
 interface MyNameProps {
   finishedLoading: boolean;
@@ -124,12 +125,23 @@ const MyName: React.FC<MyNameProps> = (props) => {
             duration: props.finishedLoading ? 0 : 0.2,
           },
         }}
-        className="mt-12"
+        className="mt-12 flex flex-wrap items-center gap-4 sm:gap-6"
       >
         <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
-          <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary transition-transform duration-300 ease-out resume-button-hover">
+          <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary hover:bg-ResumeButtonHover transition-colors duration-300 ease-out">
             Check out my resume!
           </button>
+        </a>
+        {/* WhatsApp chat: +61 422 011 165 */}
+        <a
+          href="https://wa.me/61422011165"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Chat with me on WhatsApp (+61 422 011 165)"
+          className="flex items-center gap-2 bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary hover:bg-ResumeButtonHover transition-colors duration-300 ease-out"
+        >
+          <WhatsAppIcon className="h-5 w-5 flex-none" />
+          Chat on WhatsApp
         </a>
       </motion.div>
 
