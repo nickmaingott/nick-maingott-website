@@ -11,6 +11,7 @@ import "yet-another-react-lightbox/plugins/counter.css";
 import { BadgeCheck, ChevronLeft, ChevronRight, ExternalLink, ZoomIn } from "lucide-react";
 
 import ArrowIcon from "../../Icons/ArrowIcon";
+import EventBadge from "./EventBadge";
 
 const certificates = [
   {
@@ -261,6 +262,9 @@ export default function Certificates() {
           ))}
         </div>
       </div>
+
+      {/* // ? Event badge */}
+      <EventBadge />
 
       <Lightbox
         open={lightboxIndex >= 0}
