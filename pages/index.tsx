@@ -109,8 +109,9 @@ export default function Home() {
     title: "Mikhail Kovach - Full Stack AI Software Engineer",
     description:
       "Mikhail Kovach is a Senior Full-Stack & AI Engineer in Sydney with 7+ years building production AI systems, RAG pipelines and full-stack web applications.",
-    // social previews need an absolute image URL
-    image: `${siteUrl}/nickMaingott.jpg`,
+    // social previews need an absolute image URL; 1200x630 is the 1.91:1 size LinkedIn/Facebook/X expect
+    image: `${siteUrl}/og-image.jpg`,
+    imageAlt: "Mikhail Kovach – Senior Full-Stack & AI Engineer",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -128,11 +129,15 @@ export default function Home() {
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={meta.imageAlt} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@NickMaingott" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+        <meta name="twitter:image:alt" content={meta.imageAlt} />
       </Head>
 
       {!isBlackListed ? (
