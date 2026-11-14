@@ -104,10 +104,13 @@ export default function Home() {
   }, []);
 
   console.log("website is rendering...");
+  const siteUrl = "https://www.mikhail-kovach-au.com";
   const meta = {
     title: "Mikhail Kovach - Full Stack AI Software Engineer",
-    description: `I've been working on Software development for more than 7 years. Get in touch with me to know more.`,
-    image: "/nickMaingott.jpg",
+    description:
+      "Mikhail Kovach is a Senior Full-Stack & AI Engineer in Sydney with 7+ years building production AI systems, RAG pipelines and full-stack web applications.",
+    // social previews need an absolute image URL
+    image: `${siteUrl}/nickMaingott.jpg`,
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -118,10 +121,10 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://nickmaingott.com`} />
-        <link rel="canonical" href={`https://nickmaingott.com`} />
+        <meta property="og:url" content={siteUrl} />
+        <link rel="canonical" href={siteUrl} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Nick MainGott" />
+        <meta property="og:site_name" content="Mikhail Kovach" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />

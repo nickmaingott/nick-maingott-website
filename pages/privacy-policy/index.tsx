@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
       <div className="max-w-3xl mx-auto bg-white shadow-xl rounded-lg overflow-hidden">
         <div className="px-4 py-5 sm:p-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
-            Privacy Policy for nickmaingott.com
+            Privacy Policy for mikhail-kovach-au.com
           </h1>
           <p className="text-sm text-gray-600 mb-8">
             Effective Date: 5 Oct 2024
@@ -40,10 +40,10 @@ const PrivacyPolicy = () => {
             <p className="text-gray-700 mb-4">
               The website{" "}
               <a
-                href="https://nickmaingott.com"
+                href="https://www.mikhail-kovach-au.com"
                 className="text-blue-600 hover:text-blue-800 transition duration-300"
               >
-                nickmaingott.com
+                mikhail-kovach-au.com
               </a>{" "}
               serves as my personal portfolio where I share my resume and
               software projects.
